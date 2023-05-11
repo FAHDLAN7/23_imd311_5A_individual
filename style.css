@@ -1,0 +1,42 @@
+h1
+{
+    color: rgba(24, 129, 115, 0.834);
+}
+
+body
+{
+    background-color: darkseagreen;
+}
+a{
+    text-decoration: black;
+    padding-right: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40;
+}
+a:hover
+{color: crimson;
+background-color: black;
+}
+
+.logo
+{width: 30%;
+background-color: greenyellow;
+height: 150px;
+float: left;
+}
+
+.menu
+{
+    width: 70%;
+    background-color: darkseagreen;
+    height: 150px;
+    float:left;
+}
+
+.slider
+{
+    width: 100%;
+    background-color: aquamarine;
+    height: 400px;
+    float: left;
+}
