@@ -1,120 +1,105 @@
 h1
-{
-    color: rgba(24, 129, 115, 0.834);
-}
+    {
+        color: rgb(2, 2, 2);
+    }    
 
-body
-{
-    background-color: darkseagreen;
-}
-a{
-    text-decoration: black;
-    padding-right: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40;
-}
-a:hover
-{color: crimson;
-background-color: black;
-}
+    body
+    {
+        background-color: rgb(215, 149, 232);
+    }
 
-.logo
-{width: 30%;
-background-color: greenyellow;
-height: 150px;
-float: left;
-}
+    a
+    {
+        text-decoration:none;
+        padding-right: 50px;
+        font-family: fantasy;
+        font-size: 18pt;
+    }
+       
 
-.menu
-{
-    width: 70%;
-    background-color: darkseagreen;
-    height: 150px;
-    float:left;
-}
+    .profile
+    {
+       margin-left:auto;
+       margin-right: auto;
+       display: block;
+    }
 
-.slider
-{
-    width: 100%;
-    background-color: aquamarine;
-    height: 400px;
-    float: left;
-}
-.box1
-{
-    width: 258;
-    background-color: goldenrod;
-    height: 300px;
-    float: left;
-}
-.box2
-{
-    width: 258;
-    background-color: burlywood;
-    height: 300px;
-    float: left;
-}
-.box3
-{
-    width: 258;
-    background-color: khaki;
-    height: 300px;
-    float: left;
-}
-.box4
-{
-    width: 258;
-    background-color:wheat;
-    height: 300px;
-    float: left;
-}
-.box5
-{
-    width: 258;
-    background-color:sienna;
-    height: 300px;
-    float: left;
-}
-.section1
-{
-    width: 545;
-    background-color: bisque;
-    height: 300px;
-    float: left;
-}
-.section2
-{
-    width: 545;
-    background-color: bisque;
-    height: 300px;
-    float: left;
-}
-.section2
-{
-    width: 545;
-    background-color: bisque;
-    height: 300px;
-    float: left;
-}
-table, tr, td, th
-{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-table
-{
-    width: 800;
-}
-th
-{
-    background-color:black;
-    color: aqua;
-}
-tr
-{
-    background-color: aqua;
-}
-td
-{
-    background-color: aquamarine;
-}
+    .menu
+    { list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hobby
+    {
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+    }
+    
+    
+
+    .slider1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    .slider2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        } 
+
+        Table, tr, td, th
+        {
+            border: 1px dashed brown;
+            border-collapse: collapse;
+        }
+        
+        table
+        {
+            width: 600px
+        }
+    
+        tr
+        {
+            background-color: bisque;
+        }
+    
+        tr:nth-child(odd)
+        {
+            background-color: azure;
+        }
+    
+        tr:hover
+        {
+            background-color: aqua;
+        }
+    
+        th
+        {
+            background-color: rgb(170, 21, 21);
+        }  
